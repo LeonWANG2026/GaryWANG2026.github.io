@@ -1392,7 +1392,7 @@ pre code {
   transition: all 0.2s ease-in-out;
 }
 .links-of-author a::before {
-  background: #ff017d;
+  background: #ff77fe;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2883,78 +2883,4 @@ header.header {
   .sidebar-active .footer-fixed {
     right: 320px;
   }
-}
-body {
-  background-image: url("/images/bg.jpg");
-  background-size: contain; /* 确保背景图完整显示 */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* 背景图固定 */
-  height: 100vh;
-  margin: 0;
-  background-color: #000; /* 未铺满部分填充黑色 */
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bg.jpg");
-  color: #d4d4d4 !important;
-}
-.main-inner {
-  background-color: rgba(30,30,30,0.8); /* 黑色背景，透明度为80% */
-!important /* 未铺满部分填充黑色 */
-  color: #d4d4d4 !important;
-  padding-right: 60px;
-  padding-bottom: 60px;
-  padding-left: 60px;
-}
-!important
-header.header {
-  background-color: #000 !important; /* 黑色背景，透明度为80% */
-!important /* 未铺满部分填充黑色 */
-}
-!important
-.footer-custom {
-  background-color: rgba(30,30,30,0.9); /* 黑色背景，透明度为80% */
-!important /* 未铺满部分填充黑色 */
-  color: #d4d4d4 !important;
-}
-!important
-.posts-expand .post-title-link {
-  color: #d4d4d4 !important;
-}
-.posts-expand .post-meta-container {
-  color: #d4d4d4 !important;
-}
-.menu {
-  color: #fff !important;
-}
-.site-subtitle {
-/*background-color: rgba(0,98, 154, 0.7); /* 背景颜色，可以根据需要更改 */
-  color: #007bc0 !important; /* 字体颜色 */
-  font-size: 24px; /* 字体加大，可以根据需要调整大小 */
-  font-weight: 100; /* 变细 */
-  font-family: 'Arial', sans-serif; /* 使用Arial字体，或任何你喜欢的字体 */
-  font-style: italic; /* 设置为斜体 */
-}
-.search-popup .search-header {
-  background: #43464a;
-}
-.sidebar {
-  background: #43464a;
-  box-shadow: #000 0px 0px 0px inset;
-  color: #d4d4d4 !important;
-}
-.sidebar-inner {
-  color: #d4d4d4 !important;
-}
-.site-author-name {
-  color: #fff;
-}
-.site-description {
-  color: #d4d4d4 !important;
-}
-.search-popup input.search-input {
-  color: #d4d4d4 !important;
-}
-:root {
-  --link-color: #d4d4d4;
-  --link-hover-color: #d0d4d8;
-  --card-bg-color: #595e62;
 }
